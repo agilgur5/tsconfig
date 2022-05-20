@@ -1,0 +1,13 @@
+{
+  // small library-specific additions on top of the base
+  "extends": "./tsconfig.json",
+  // see https://www.typescriptlang.org/tsconfig to better understand tsconfigs
+  "compilerOptions": {
+    // output .d.ts declaration files for consumers
+    "declaration": true,
+    // output .d.ts.map declaration map files for consumers
+    "declarationMap": true,
+  },
+  // read this file as a tsconfig even though it's named slightly differently
+  "$schema": "https://json.schemastore.org/tsconfig",
+}
