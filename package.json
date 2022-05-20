@@ -1,0 +1,54 @@
+{
+  "name": "@agilgur5/tsconfig",
+  "version": "0.0.1",
+  "description": "My tsconfig base files, extending @tsconfig/strictest",
+  "source": "src/tsconfig.json",
+  "main": "src/tsconfig.json",
+  "exports": {
+    ".": "./src/tsconfig.json",
+    "./library": "./src/tsconfig.library.json",
+    "./library-build": "./src/tsconfig.library-build.json"
+  },
+  "files": [
+    "src/"
+  ],
+  "author": "Anton Gilgur",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/agilgur5/tsconfig",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agilgur5/tsconfig.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agilgur5/tsconfig/issues"
+  },
+  "funding": {
+    "url": "https://github.com/sponsors/agilgur5"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "tsconfig",
+    "strict",
+    "strictest",
+    "library",
+    "package",
+    "base",
+    "boilerplate",
+    "template"
+  ],
+  "scripts": {
+    "clean": "rm -f *.tgz",
+    "test:pub": "npm run clean && npm pack",
+    "changelog": "changelog-maker"
+  },
+  "engines": {
+    "node": ">=12.7.0"
+  },
+  "dependencies": {
+    "@tsconfig/strictest": "^1.0.0"
+  },
+  "devDependencies": {
+    "changelog-maker": "^3.0.0"
+  }
+}
