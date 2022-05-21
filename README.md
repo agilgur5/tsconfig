@@ -2,12 +2,6 @@
 
 My tsconfig base files, extending [`@tsconfig/strictest`](https://github.com/tsconfig/bases).
 
-## Directory
-
-- [Base](src/tsconfig.json)
-- [Library](src/tsconfig.library.json)
-- [Library Build](src/tsconfig.library-build.json)
-
 ## Installation
 
 ```sh
@@ -16,7 +10,7 @@ npm i -D @agilgur5/tsconfig
 
 ## Usage
 
-_tsconfig.json_:
+`tsconfig.json`:
 
 ```json5
 {
@@ -36,7 +30,7 @@ Please see the [`package.json#exports`](package.json) for how to import the diff
 
 **NOTE**: Due to [microsoft/TypeScript#29172](https://github.com/microsoft/TypeScript/issues/29172), we repeat some configurations (`files`, `include`, `exclude`, `outDir`) from the base config as relative paths are currently resolved _within_ `node_modules`.
 
-## Additions to `@tsconfig/strictest`
+## Directory
 
 The configs here do not change any of the _type-checking_ from the `@tsconfig/strictest` base. They only _add_ a handful more simple, common configurations:
 
