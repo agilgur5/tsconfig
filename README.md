@@ -1,5 +1,11 @@
 # tsconfig
 
+<!-- releases / versioning -->
+[![package-json](https://img.shields.io/github/package-json/v/agilgur5/tsconfig.svg)](https://npmjs.org/package/@agilgur5/tsconfig)
+[![releases](https://img.shields.io/github/tag-pre/agilgur5/tsconfig.svg)](https://github.com/agilgur5/tsconfig/releases)
+[![commits](https://img.shields.io/github/commits-since/agilgur5/tsconfig/latest.svg?include_prereleases&sort=semver)](https://github.com/agilgur5/tsconfig/commits/main)
+<br>
+
 My tsconfig base files, extending [`@tsconfig/strictest`](https://github.com/tsconfig/bases).
 
 ## Installation
