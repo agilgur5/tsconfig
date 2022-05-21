@@ -1,6 +1,6 @@
 {
   "name": "@agilgur5/tsconfig",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My tsconfig base files, extending @tsconfig/strictest",
   "source": "src/tsconfig.json",
   "main": "src/tsconfig.json",
