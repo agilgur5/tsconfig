@@ -49,7 +49,7 @@
     "node": ">=12.7.0"
   },
   "dependencies": {
-    "@tsconfig/strictest": "^1.0.0"
+    "@tsconfig/strictest": "^2.0.1"
   },
   "devDependencies": {
     "changelog-maker": "^3.0.0"
