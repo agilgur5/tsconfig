@@ -21,7 +21,7 @@ npm i -D @agilgur5/tsconfig
 ```json5
 {
   // https://github.com/agilgur5/tsconfig
-  "extends": "@agilgur5/tsconfig/src/tsconfig.library.json",
+  "extends": "@agilgur5/tsconfig/library",
   // exclude node_modules (the default), dist dir, coverage dir
   "exclude": ["node_modules/", "dist/", "coverage/"],
   // see https://www.typescriptlang.org/tsconfig to better understand tsconfigs
@@ -32,7 +32,7 @@ npm i -D @agilgur5/tsconfig
 }
 ```
 
-**NOTE**: Due to [microsoft/TypeScript#48665](https://github.com/microsoft/TypeScript/issues/48665), we import from `@agilgur5/tsconfig/src` instead of the shortened [`package.json#exports`](package.json).
+**NOTE**: Due to [microsoft/TypeScript#48665](https://github.com/microsoft/TypeScript/issues/48665), TypeScript versions older than v5 must import from `@agilgur5/tsconfig/src` instead of the shortened [`package.json#exports`](package.json).
 
 **NOTE**: Due to [microsoft/TypeScript#29172](https://github.com/microsoft/TypeScript/issues/29172), we repeat some configurations (`files`, `include`, `exclude`, `outDir`) from the base config as relative paths are currently resolved _within_ `node_modules`.
 
